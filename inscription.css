@@ -1,0 +1,73 @@
+.header, .hero {
+  text-align: center;
+  padding: 2em;
+  background-color: #4CAF50;
+  color: white;
+}
+/* Animation d'introduction */
+#introText {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+.signup-section {
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .signup-section h2 {
+    color: #ff758c;
+  }
+  
+  .signup-section label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+  }
+  
+  .signup-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cta-button {
+    background: #ff758c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #d94b6e;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1em;
+    background: green;
+    color: white;
+}
